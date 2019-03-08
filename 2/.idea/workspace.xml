@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="49941a20-cf32-4952-a0d5-c78d43541f70" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Archiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Archiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/pqueue/heaps/ArrayMinHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/pqueue/heaps/ArrayMinHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/tavl/StudentTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/tavl/StudentTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/tavl/ThreadedAVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/tavl/ThreadedAVLTree.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CMSC420_Fall2018$StudentTests.ic" NAME="StudentTests Coverage Results" MODIFIED="1539228951060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>projects.tavl.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/CMSC420_Fall2018$LinkedMinHeapTest_testManyDeleteMins.ic" NAME="LinkedMinHeapTest.testManyDeleteMins Coverage Results" MODIFIED="1537304068982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>projects.pqueue.heaps.test.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-864723521">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="60" />
+          <entry key="java" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="60" />
+          <entry key="JAVA" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="26220" />
+          <entry key="txt" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="26220" />
+          <entry key="PLAIN_TEXT" value="12" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CMSC420-Fall2018" />
+    <favorites_list name="CMSC3890" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/projects/tavl/ThreadedAVLTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1385">
+              <caret line="520" column="27" lean-forward="true" selection-start-line="520" selection-start-column="27" selection-end-line="520" selection-end-column="27" />
+              <folding>
+                <element signature="e#2628#2629#0" expanded="true" />
+                <element signature="e#2670#2671#0" expanded="true" />
+                <element signature="e#16425#16426#0" expanded="true" />
+                <element signature="e#16460#16461#0" expanded="true" />
+                <element signature="e#16667#16668#0" expanded="true" />
+                <element signature="e#16706#16707#0" expanded="true" />
+                <element signature="e#16599#16600#0" expanded="true" />
+                <element signature="e#16633#16634#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>flag =</find>
+      <find>reo</find>
+      <find>UNIMPL_MSG</find>
+      <find>leftm</find>
+      <find>inserthelp</find>
+      <find>delete</find>
+      <find>search</find>
+      <find>remove</find>
+      <find>rotati</find>
+      <find>getParent</find>
+      <find>39</find>
+      <find>inorder</find>
+      <find>leftmost</find>
+      <find>getleftmost</find>
+      <find>set</find>
+      <find>setu</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/projects/pqueue/heaps/test/ArrayMinHeapTest.java" />
+        <option value="$PROJECT_DIR$/src/projects/pqueue/priorityqueues/LinearPriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/projects/pqueue/heaps/test/LinkedMinHeapTest.java" />
+        <option value="$PROJECT_DIR$/src/projects/pqueue/heaps/LinkedMinHeap.java" />
+        <option value="$PROJECT_DIR$/src/projects/pqueue/priorityqueues/MinHeapPriorityQueue.java" />
+        <option value="$PROJECT_DIR$/src/Archiver.java" />
+        <option value="$PROJECT_DIR$/src/projects/pqueue/heaps/ArrayMinHeap.java" />
+        <option value="$PROJECT_DIR$/src/projects/tavl/StudentTests.java" />
+        <option value="$PROJECT_DIR$/src/projects/tavl/ThreadedAVLTree.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="46" />
+    <option name="y" value="1" />
+    <option name="width" value="1946" />
+    <option name="height" value="930" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CMSC420-Fall2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMSC420-Fall2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMSC420-Fall2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMSC420-Fall2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMSC420-Fall2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMSC420-Fall2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pqueue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMSC420-Fall2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMSC420-Fall2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pqueue" type="462c0819:PsiDirectoryNode" />
+              <item name="heaps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMSC420-Fall2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMSC420-Fall2018" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pqueue" type="462c0819:PsiDirectoryNode" />
+              <item name="heaps" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CMSC420-Fall2018" type="58d84e3e:PackageViewProjectNode" />
+              <item name="CMSC420-Fall2018" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="CMSC420-Fall2018" type="58d84e3e:PackageViewProjectNode" />
+              <item name="CMSC420-Fall2018" type="616d4139:PackageViewModuleNode" />
+              <item name="projects" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="CMSC420-Fall2018" type="58d84e3e:PackageViewProjectNode" />
+              <item name="CMSC420-Fall2018" type="616d4139:PackageViewModuleNode" />
+              <item name="projects" type="1f31426a:PackageElementNode" />
+              <item name="tavl" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="create new project&#9;null&#9;null&#10;maven&#9;ACTION&#9;ActivateMavenProjectsToolWindow" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539369517684" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/CMSC420/project/junit4.12.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/src/projects/pqueue/heaps/ArrayMinHeap.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ZIhan Liu\IdeaProjects\CMSC420-Fall2018\src\projects\pqueue\heaps\Test" />
+      <recent name="C:\Users\ZIhan Liu\IdeaProjects\CMSC420-Fall2018\src\projects\pqueue\priorityqueues\Test" />
+      <recent name="C:\Users\ZIhan Liu\IdeaProjects\CMSC420-Fall2018\src\projects\pqueue\heaps\test" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/Archiver.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/allclasses-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/allclasses-noframe.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/constant-values.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/Bag.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/DynamicallyShuffledBag.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/RandomAccessBag.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/StaticallyPerturbedBag.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/clients/Ball.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/clients/Color.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/clients/IntegerTimingClient.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/clients/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/clients/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/clients/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/testcases/BagTests.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/testcases/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/testcases/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/testcases/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/matrices/java/Dimension.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/matrices/java/MajorOrderTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/matrices/java/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/matrices/java/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/matrices/java/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/traversals/BSTClient.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/traversals/BinarySearchTree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/traversals/BinarySearchTreeTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/traversals/JLinkedList.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/traversals/JLinkedListClient.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/traversals/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/traversals/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/traversals/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/deprecated-list.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/help-doc.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-1.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-10.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-11.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-12.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-13.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-14.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-15.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-16.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-17.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-18.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-2.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-3.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-4.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-5.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-6.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-7.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-8.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-9.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/overview-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/overview-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/overview-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/package-list</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/InvalidCapacityException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/InvalidPriorityException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/CircularArrayFIFOQueue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/EmptyFIFOQueueException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/FIFOQueue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/LinearArrayFIFOQueue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/LinkedFIFOQueue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/test/LinearArrayFIFOQueueTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/test/LinkedFIFOQueueTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/test/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/test/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/test/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/heaps/ArrayMinHeap.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/heaps/EmptyHeapException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/heaps/LinkedMinHeap.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/heaps/MinHeap.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/heaps/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/heaps/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/heaps/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/DoublyLinkedList.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/EmptyListException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/IllegalListAccessException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/LinkedList.LinkedListNode.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/LinkedList.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/List.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/StaticArrayList.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/test/DoublyLinkedListTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/test/LinkedListTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/test/StaticArrayListTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/test/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/test/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/test/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/priorityqueues/EmptyPriorityQueueException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/priorityqueues/LinearPriorityQueue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/priorityqueues/MinHeapPriorityQueue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/priorityqueues/PriorityQueue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/priorityqueues/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/priorityqueues/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/priorityqueues/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/BinarySearchTree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/EmptyTreeException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/LinkedBinarySearchTree.LinkedBSTNode.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/LinkedBinarySearchTree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/Tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/test/LinkedBinarySearchTreeTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/test/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/test/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/test/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/serialized-form.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/stylesheet.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/demos/traversals/JLinkedList.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/demos/traversals/JLinkedListClient.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/class-use/Archiver.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/class-use/Bag.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/class-use/DynamicallyShuffledBag.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/class-use/RandomAccessBag.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/class-use/StaticallyPerturbedBag.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/clients/class-use/Ball.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/clients/class-use/Color.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/clients/class-use/IntegerTimingClient.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/clients/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/testcases/class-use/BagTests.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/bags/testcases/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/matrices/java/class-use/Dimension.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/matrices/java/class-use/MajorOrderTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/matrices/java/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/traversals/class-use/BSTClient.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/traversals/class-use/BinarySearchTree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/traversals/class-use/BinarySearchTreeTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/traversals/class-use/JLinkedList.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/traversals/class-use/JLinkedListClient.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/demos/traversals/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/element-list</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-19.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/index-files/index-20.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/external/jquery/jquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/images/ui-bg_flat_0_aaaaaa_40x100.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/images/ui-bg_flat_75_ffffff_40x100.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_55_fbf9ee_1x400.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_65_ffffff_1x400.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_75_dadada_1x400.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/images/ui-bg_glass_95_fef1ec_1x400.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/images/ui-icons_222222_256x240.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/images/ui-icons_2e83ff_256x240.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/images/ui-icons_454545_256x240.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/images/ui-icons_888888_256x240.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/images/ui-icons_cd0a0a_256x240.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/jquery-1.10.2.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/jquery-ui.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/jquery-ui.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/jquery-ui.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/jquery-ui.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/jquery-ui.structure.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/jquery-ui.structure.min.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/jszip-utils/dist/jszip-utils-ie.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/jszip-utils/dist/jszip-utils-ie.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/jszip-utils/dist/jszip-utils.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/jszip-utils/dist/jszip-utils.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/jszip/dist/jszip.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/jquery/jszip/dist/jszip.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/member-search-index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/member-search-index.zip</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/package-search-index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/package-search-index.zip</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/class-use/InvalidCapacityException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/class-use/InvalidPriorityException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/class-use/CircularArrayFIFOQueue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/class-use/EmptyFIFOQueueException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/class-use/FIFOQueue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/class-use/LinearArrayFIFOQueue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/class-use/LinkedFIFOQueue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/test/class-use/LinearArrayFIFOQueueTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/test/class-use/LinkedFIFOQueueTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/fifoqueues/test/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/heaps/class-use/ArrayMinHeap.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/heaps/class-use/EmptyHeapException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/heaps/class-use/LinkedMinHeap.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/heaps/class-use/MinHeap.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/heaps/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/class-use/DoublyLinkedList.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/class-use/EmptyListException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/class-use/IllegalListAccessException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/class-use/LinkedList.LinkedListNode.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/class-use/LinkedList.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/class-use/List.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/class-use/StaticArrayList.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/test/class-use/DoublyLinkedListTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/test/class-use/LinkedListTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/test/class-use/StaticArrayListTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/lists/test/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/priorityqueues/class-use/EmptyPriorityQueueException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/priorityqueues/class-use/LinearPriorityQueue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/priorityqueues/class-use/MinHeapPriorityQueue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/priorityqueues/class-use/PriorityQueue.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/priorityqueues/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/class-use/BinarySearchTree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/class-use/EmptyTreeException.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/class-use/LinkedBinarySearchTree.LinkedBSTNode.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/class-use/LinkedBinarySearchTree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/class-use/Tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/test/class-use/LinkedBinarySearchTreeTest.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/pqueue/trees/test/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/tavl/StudentTests.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/tavl/ThreadedAVLTree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/tavl/class-use/ThreadedAVLTree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/tavl/package-frame.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/tavl/package-summary.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/tavl/package-tree.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/projects/tavl/package-use.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/resources/glass.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/resources/x.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/search.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/type-search-index.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/doc/type-search-index.zip</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/projects/tavl/StudentTests.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/projects/tavl/ThreadedAVLTree.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/projects/tavl/project2_writeup.pdf</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Archiver">
+    <configuration name="Archiver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Archiver" />
+      <module name="CMSC420-Fall2018" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CMSC420-Fall2018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projects.tavl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="projects.tavl" />
+      <option name="MAIN_CLASS_NAME" value="projects.tavl.StudentTests" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTests.testEmptyTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CMSC420-Fall2018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projects.tavl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="projects.tavl" />
+      <option name="MAIN_CLASS_NAME" value="projects.tavl.StudentTests" />
+      <option name="METHOD_NAME" value="testEmptyTree" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTests.testInorder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CMSC420-Fall2018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projects.tavl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="projects.tavl" />
+      <option name="MAIN_CLASS_NAME" value="projects.tavl.StudentTests" />
+      <option name="METHOD_NAME" value="testInorder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentTests.testInorder2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CMSC420-Fall2018" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projects.tavl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="projects.tavl" />
+      <option name="MAIN_CLASS_NAME" value="projects.tavl.StudentTests" />
+      <option name="METHOD_NAME" value="testInorder2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit">
+      <module name="CMSC420-Fall2018" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="Application.Archiver" />
+      <item itemvalue="JUnit.StudentTests" />
+      <item itemvalue="JUnit.StudentTests.testEmptyTree" />
+      <item itemvalue="JUnit.StudentTests.testInorder" />
+      <item itemvalue="JUnit.StudentTests.testInorder2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Archiver" />
+        <item itemvalue="JUnit.StudentTests" />
+        <item itemvalue="JUnit.StudentTests.testInorder2" />
+        <item itemvalue="JUnit.StudentTests.testInorder" />
+        <item itemvalue="JUnit.StudentTests.testEmptyTree" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="49941a20-cf32-4952-a0d5-c78d43541f70" name="Default Changelist" comment="" />
+      <created>1536883763212</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536883763212</updated>
+      <workItem from="1536883774883" duration="272000" />
+      <workItem from="1536886320796" duration="1263000" />
+      <workItem from="1536892407053" duration="2686000" />
+      <workItem from="1536975926895" duration="30634000" />
+      <workItem from="1537230520594" duration="44659000" />
+      <workItem from="1537412139004" duration="66000" />
+      <workItem from="1537484651977" duration="301000" />
+      <workItem from="1538856325224" duration="124844000" />
+    </task>
+    <task id="LOCAL-00001" summary="git push">
+      <created>1538856646091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1538856646091</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="StudentTests - 2018.10.12 at 14h 29m 33s.xml">
+      <configuration name="StudentTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTests - 2018.10.12 at 14h 31m 28s.xml">
+      <configuration name="StudentTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTests - 2018.10.12 at 14h 32m 48s.xml">
+      <configuration name="StudentTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTests - 2018.10.12 at 14h 33m 48s.xml">
+      <configuration name="StudentTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTests - 2018.10.12 at 14h 34m 09s.xml">
+      <configuration name="StudentTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTests - 2018.10.12 at 14h 35m 49s.xml">
+      <configuration name="StudentTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTests - 2018.10.12 at 14h 37m 00s.xml">
+      <configuration name="StudentTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTests - 2018.10.12 at 14h 37m 14s.xml">
+      <configuration name="StudentTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTests - 2018.10.12 at 14h 37m 30s.xml">
+      <configuration name="StudentTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="StudentTests - 2018.10.12 at 14h 37m 49s.xml">
+      <configuration name="StudentTests" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="204725000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73487544" visible="true" weight="0.16680162" />
+      <window_info id="Structure" order="1" sideWeight="0.5017794" side_tool="true" weight="0.23076923" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.26512456" weight="0.20404859" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.18327402" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.6227758" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49959514" weight="0.4128114" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3291815" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291815" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50040483" side_tool="true" weight="0.26156583" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.46797153" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32955465" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24939272" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.06720648" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32955465" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git push" />
+    <option name="LAST_COMMIT_MESSAGE" value="git push" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/projects/pqueue/heaps/Test/ArrayMinHeapTest.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/projects/pqueue/heaps/Test/ArrayMinHeapTest.java</url>
+          <line>53</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/projects/tavl/StudentTests.java</url>
+          <line>295</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((LinkedMinHeap)test).first" custom="projects.pqueue.heaps.LinkedMinHeap" />
+        <watch expression="test" />
+        <watch expression="((LinkedMinHeap)test).last" custom="projects.pqueue.heaps.LinkedMinHeap" />
+        <watch expression="((LinkedMinHeap)test).last" custom="projects.pqueue.heaps.LinkedMinHeap" />
+        <watch expression="((LinkedMinHeap)test).last" custom="projects.pqueue.heaps.LinkedMinHeap" />
+        <watch expression="((LinkedMinHeap)test).last" language="JAVA" custom="projects.pqueue.heaps.LinkedMinHeap" />
+        <watch expression="first" language="JAVA" />
+        <watch expression="((heapNode)((LinkedMinHeap)test).first).leftChild" custom="projects.pqueue.heaps.LinkedMinHeap.heapNode,projects.pqueue.heaps.LinkedMinHeap" />
+        <watch expression="curr" />
+        <watch expression="((ThreadedAVLTree)((StudentTests)this).tree).root" custom="projects.tavl.ThreadedAVLTree,projects.tavl.StudentTests" />
+        <watch expression="this" />
+        <watch expression="this" language="JAVA" />
+        <watch expression="test" />
+        <watch expression="((StudentTests)this).tree" custom="projects.tavl.StudentTests" />
+        <watch expression="this" />
+        <watch expression="t" />
+        <watch expression="t" />
+        <watch expression="((TAVLNode)((TAVLNode)((ThreadedAVLTree)this).root).leftChild).leftChild" custom="projects.tavl.ThreadedAVLTree.TAVLNode,projects.tavl.ThreadedAVLTree" />
+        <watch expression="((TAVLNode)((ThreadedAVLTree)((StudentTests)this).tree).root).value" custom="projects.tavl.ThreadedAVLTree.TAVLNode,projects.tavl.ThreadedAVLTree,projects.tavl.StudentTests" />
+        <watch expression="newTree" />
+        <watch expression="newTree" language="JAVA" />
+        <watch expression="newTree.root.leftChild" />
+        <watch expression="newTree.root.leftChild" language="JAVA" />
+        <watch expression="newTree.root.leftChild" />
+        <watch expression="newTree.root.leftChild" language="JAVA" />
+        <watch expression="newTree" />
+        <watch expression="newTree" />
+        <watch expression="newTree.root.rightChild.rightChild.leftChild" />
+        <watch expression="newTree.root.rightChild.leftChild.rightChild" />
+        <watch expression="newTree.root.rightChild.leftChild.leftChild.leftChild.leftChild.leftChild.rightChild" />
+        <watch expression="newTree.root.leftChild.rightChild.rightChild.leftChild.leftChild.leftChild.leftThread" />
+        <watch expression="newTree" />
+        <watch expression="newTree.root.leftChild.leftChild.leftChild" />
+        <watch expression="newTree.root.leftChild.rightChild.rightChild" />
+        <watch expression="newTree.root.rightChild.leftChild.leftChild" />
+        <watch expression="newTree.root.rightChild.leftChild" />
+        <watch expression="newTree.root.rightChild.leftChild" language="JAVA" />
+        <watch expression="newTree.root.rightChild.rightChild.leftChild" />
+        <watch expression="((TAVLNode)((TAVLNode)((ThreadedAVLTree)this).root).leftChild).leftChild" custom="projects.tavl.ThreadedAVLTree.TAVLNode,projects.tavl.ThreadedAVLTree" />
+        <watch expression="((TAVLNode)((ThreadedAVLTree)this).root).rightChild" custom="projects.tavl.ThreadedAVLTree.TAVLNode,projects.tavl.ThreadedAVLTree" />
+        <watch expression="this" />
+        <watch expression="newTree.root.leftChild" />
+        <watch expression="newTree.root.rightChild.rightChild" language="JAVA" />
+        <watch expression="newTree.root.rightChild.rightChild" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>newTree.root.rightChild.rightChild</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>newTree.root.rightChild.leftChild</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>currentT</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>current</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getSize(root)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getHeight(curr.rightChild)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getHeight(curr.leftChild)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>getHeight(curr.left)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>curr</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>inorderSuc(curr)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>num[ignored]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/projects/pqueue/lists/test/DoublyLinkedListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/pqueue/heaps/EmptyHeapException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demos/traversals/BSTClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/pqueue/lists/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="78" column="28" lean-forward="true" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/pqueue/lists/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1508">
+          <caret line="18" selection-start-line="18" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/pqueue/lists/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-178">
+          <caret line="64" selection-start-line="64" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/CMSC420/project/junit4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/CMSC420/project/junit4.12.jar!/org/junit/internal/runners/model/EachTestNotifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="1215" selection-start-line="1215" selection-end-line="1215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="657" selection-start-line="657" selection-end-line="658" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.163.600/HZ$D.163.602/src/projects/pqueue/heaps/LinkedMinHeap.java" />
+    <entry file="file://$PROJECT_DIR$/src/projects/pqueue/priorityqueues/Test/MinHeapPriorityQueueTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/projects/pqueue/heaps/test/LinkedMinHeapTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/projects/pqueue/priorityqueues/LinearPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="44" lean-forward="true" selection-start-line="9" selection-start-column="44" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/pqueue/heaps/Test/ArrayMinHeapTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#1508#1517#0" expanded="true" />
+            <element signature="e#2157#2166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/CMSC420/UMDDataStructs-3f09391b73f54f401c51d675e56d8b2b1de1db79/src/testcases/trees/AVLBinarySearchTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3110" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/pqueue/heaps/MinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" column="3" lean-forward="true" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/pqueue/heaps/LinkedMinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1843">
+          <caret line="123" column="9" lean-forward="true" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/CMSC420/project/junit4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/reflect/InvocationTargetException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="97" selection-start-line="97" selection-end-line="98" />
+          <folding>
+            <element signature="e#2547#2548#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="497" selection-start-line="497" selection-end-line="497" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/CMSC420/project/junit4.12.jar!/org/junit/Assert.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="333" selection-start-line="333" selection-end-line="334" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/pqueue/priorityqueues/MinHeapPriorityQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="154" column="25" lean-forward="true" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/pqueue/trees/LinkedBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5828">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/pqueue/heaps/ArrayMinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="289" selection-start-line="289" selection-end-line="289" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/CMSC420/project/junit4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/CMSC420/project/junit4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Desktop/CMSC420/project/junit4.12.jar!/org/junit/internal/requests/FilterRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="28" selection-start-line="28" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/CMSC420/UMDDataStructs-3f09391b73f54f401c51d675e56d8b2b1de1db79/src/datastructures/trees/AVLBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="177" column="90" lean-forward="true" selection-start-line="177" selection-start-column="90" selection-end-line="177" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Archiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="19" column="2" lean-forward="true" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/tavl/StudentTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="322" lean-forward="true" selection-start-line="322" selection-end-line="323" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/projects/tavl/ThreadedAVLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1385">
+          <caret line="520" column="27" lean-forward="true" selection-start-line="520" selection-start-column="27" selection-end-line="520" selection-end-column="27" />
+          <folding>
+            <element signature="e#2628#2629#0" expanded="true" />
+            <element signature="e#2670#2671#0" expanded="true" />
+            <element signature="e#16425#16426#0" expanded="true" />
+            <element signature="e#16460#16461#0" expanded="true" />
+            <element signature="e#16667#16668#0" expanded="true" />
+            <element signature="e#16706#16707#0" expanded="true" />
+            <element signature="e#16599#16600#0" expanded="true" />
+            <element signature="e#16633#16634#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CMSC420-Fall2018</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit4.12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>
