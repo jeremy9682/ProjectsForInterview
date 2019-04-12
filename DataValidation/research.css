@@ -1,0 +1,26 @@
+
+fieldset {
+    
+   border-radius:10px;
+    border-style: groove;
+    border-color: black;
+    background: grey;
+}
+
+h2 {
+     text-shadow:1px 1px 5px black;
+    text-decoration: underline;
+    margin-right: 140px;
+    margin-left: 360px;
+}
+
+legend {
+	color :  #A0522D ;
+      margin-right: 150px;
+    margin-left: 100px;
+}
+
+.end{
+  width: 140px;
+  height: 150px;
+}

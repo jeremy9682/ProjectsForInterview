@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="bootstrap/jquery-3.2.1.min.js"></script>
+   		<script src="bootstrap/js/bootstrap.min.js"></script>
+    <title>Application System</title>
+
+</head>
+
+<body onload = "main()">
+
+
+<h3>Go to Phoneview</h3>
+	<br>
+	<form>
+	<input type="button" id = "phoneview" value = "Go to Phoneview">
+		<br>
+<h3>Go to Recorder</h3>
+	<input type="button" id ="recoder" value = "Go to recoder">
+	
+	</form>
+
+<script>
+	
+function main(){
+
+	var button1 = document.getElementById("phoneview");
+	var button2 = document.getElementById("recoder");
+
+ 	button1.onclick = goToPhoneview;
+	button2.onclick = goToRecorder;
+}
+
+function goToPhoneview(){location.href = "Photoviewer.html";}
+
+function goToRecorder(){location.href = "Draw.html";}
+
+
+
+</script>
+
+</body>
+</html>

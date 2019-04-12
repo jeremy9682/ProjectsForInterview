@@ -1,0 +1,192 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="Utility.js"></script>
+	<script src="DoubleLinkedList.js"></script>
+    <title>Recorder</title>
+
+</head>
+
+<body>
+	<h2>Recorder</h2>
+
+	<canvas id="canvas" width="400" height="300"></canvas>
+	<br>
+	<br>
+
+
+        <input type="button" id="start" value="Start recording" />
+        <input type="button" id="stop" value="Stop recording"/>
+        <input type="button" id="play" value="Play"/>
+        <input type="button" id="save" value="Save recording"/>
+        <input type="button" id="retrieve" value="Retrieve saved recording"/>
+        <input type="button" id="change" value="Change drawing color"/>
+        <input type="button" id="clear" value="Clear Screen"/>
+
+        <div>
+        				<strong>Help Section</strong><br>
+        <strong>Start recording button </strong>: Press the button and it will record the canvas like making a video<br>
+        <strong>Stop recording button</strong>: When you are done with drawing, just press stop recording button and it will stop recording<br>
+        <strong>Save recording button</strong>: When you are done with the recording, save the recording to the local Storage<br>
+        <strong>Retrieve saved recording button</strong>: Press the button, it will retrieve the video from local storage<br>
+        <strong>Play button</strong>: After retrieving the recording from the local storage, press the Play button and it will play the recording<br>
+        <strong>Change drawing color</strong>: Press the button, the line color will change from red to blue or blue to red<br>
+        <strong>Clear screen button</strong>: Press the button, all the content will be cleared<br>
+        </div>
+
+
+ <script>
+ 	"use strict";
+			
+            let color = "red";
+            let sideLength = 5;
+            let recording = false;
+            let myInterval = null;
+            let list = new DoubleLinkedList(comparator);
+
+ 	let start = document.getElementById("start");
+    let stop = document.getElementById("stop");
+    let play = document.getElementById("play");
+    let save = document.getElementById("save");
+    let retrieve = document.getElementById("retrieve");
+    let drawingColor = document.getElementById("change");
+    let clear = document.getElementById("clear");
+   
+   
+    start.onclick = startRecording;
+    stop.onclick = stopRecording;
+    play.onclick =playRecording;
+    save.onclick = saveRecording;
+    retrieve.onclick = retrieveRecording;
+    drawingColor.onclick = changeColor;
+    clear.onclick = clearScreen;
+        	
+        	function Recorder(recordName, recordDescription) {
+    		Utility.call(this, recordName, recordDescription);
+			}
+
+
+			Recorder.prototype = new Utility();
+			Recorder.prototype.constructor = Recorder;
+
+		
+
+			function startRecording(){
+				recording = true;
+				document.onmousemove = function(evt){
+				let context = document.getElementById("canvas").getContext("2d");
+    			context.fillStyle = color;
+    			context.fillRect(evt.pageX, evt.pageY, sideLength, sideLength);
+    			list.addToEnd([evt.pageX, evt.pageY, color]);
+				}
+			}
+
+			function stopRecording(){
+				document.onmousemove = null;
+			}
+
+			function saveRecording(){
+				let num = 0;
+				let arr = [];
+				let currentNode = list.head;
+
+				for(num = 0; num < list.size; num++){
+					arr[num] = currentNode.getValue(); 
+					currentNode = currentNode.next;
+				}
+				localStorage.setItem("dataArray", JSON.stringify(arr));
+
+			}
+
+			function retrieveRecording(){
+				let newDataArray = JSON.parse(localStorage.getItem("dataArray"));
+				clearScreen();
+				let num = 0;
+				for(num = 0; num < newDataArray.length; num++){
+					let x = newDataArray[num][0];
+					let y = newDataArray[num][1];
+					let newColor = newDataArray[num][2];
+
+				let context = document.getElementById("canvas").getContext("2d");
+    			context.fillStyle = newColor;
+    			context.fillRect(x, y, sideLength, sideLength);
+				}
+
+
+			}
+
+		function playRecording(){
+			
+			clearScreen();
+			myInterval = setInterval(display,50);
+
+		}
+
+		let index = 0;
+
+		function display(){
+				if(index < list.size){
+					let currentNode = findNode(list,index);
+					let currValue = currentNode.getValue();
+					let x = currValue[0];
+					let y = currValue[1];
+					let currentColor = currValue[2];
+
+					let context = document.getElementById("canvas").getContext("2d");
+    				context.fillStyle = currentColor;
+    				context.fillRect(x, y, sideLength, sideLength);
+    				index++;
+				}else{
+					clearInterval(myInterval);
+				}
+			}
+
+		function findNode(list,index){
+    		let num = 0;
+    		let current = list.head;
+	    		for(num = 1; num < index; num++){
+	        		current = current.next;
+   		 	}
+    			return current;
+	}
+
+
+			function draw(xPos, yPos) {
+    			let context = document.getElementById("canvas").getContext("2d");
+				
+    			context.fillStyle = color;
+    			context.fillRect(xPos, yPos, sideLength, sideLength);
+    		}
+
+			function clearScreen(){
+				let canvasContext = document.getElementById("canvas");
+				canvasContext.getContext("2d").clearRect(0, 0, 400, 300);
+			}
+		
+            function changeColor() {
+            	if (color === "red") {
+            		color = "blue";
+            		sideLength = 5;
+            	} else {
+            		color = "red";
+            		sideLength = 5;
+            	}
+            }
+
+          
+    		function comparator(a,b){
+ 				 return a.value > b.value;
+
+				}	
+        </script>	
+
+
+
+
+</body>
+</html>

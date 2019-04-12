@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+    <head> 
+        <meta charset="utf-8"/> 
+		<title>Research Form</title>	
+
+		<link rel="stylesheet" href="research.css" />	
+
+		<script src="research.js"></script>
+
+
+  		
+
+</head>
+
+<body>
+	<form action="researchProcessing.php" method = "get">
+	<div id = "header">
+		<h2>Research Form</h2>
+	</div>
+
+	
+
+	<fieldset>
+	<div id = "GeneralInformation">
+		<legend>General Information</legend>
+
+		Firstname: <input type="text" name="firstname" value = "John" required>
+		Lastname: <input type="text" name="lastname" value="Smith" required>
+		<br>
+		Phone:
+		<input type="text" id = "phonefirstpart" name="phoneFirstPart" value = 301 required>
+		-
+		<input type="text" id = "phonesecondpart" name="phoneSecondPart" value = 555 required>
+		-
+		<input type="text" id = "phonethirdpart" name="phoneThirdPart" value = 4539 required>
+		Email:
+		<input type="email" name="email" value="john@smith.not.real" required>
+		</fieldset>
+	</div>
+		<br>
+			<fieldset>
+			<legend>Research Study Data</legend>
+			<fieldset>
+				<legend>Age/Height/Weight</legend>
+				Age:
+				<input type="number" name="age" value = 40 min="1" max="125" step="1" required>
+				Height:
+				<input  type="number" name="heightFeet" value = 5 min="2" max="7" required>Feet
+				<input  type="number" name="heightInches" value = 11 min="0" max="11" required>Inches
+				Weight: 
+				<input type="number" name="weight" value = 145 min="1" max="600" required>Pounds
+			
+			</fieldset>
+
+			<br>
+			<div>
+				<fieldset>
+				<legend>Conditions</legend>
+				Which of the following conditions are present in your family? (Check all that apply)
+                    <br>
+                    <input type="checkbox"  id="highbloodpressure" name="highBloodPressure" value="High Blood Pressure">High Blood Pressure 
+                    <input type="checkbox" id = "diabetes"name="diabetes" value="Diabetes">Diabetes
+                    <input type="checkbox" id = "glaucoma" name="glaucoma" value="Glaucoma">Glaucoma
+                    <input type="checkbox" id ="asthma" name="asthma" value="Asthma">Asthma
+                    <input type="checkbox" id = "none" name="none" value="None">None
+                    </fieldset>
+			</div>
+			
+
+
+			<div id = "TimePeriod">
+				<fieldset>
+				<legend>Time Period</legend>
+				How long have you experienced any of the above conditions?<br>
+				 	<input type="radio" name="period" id = "Never" value="Never">
+				 	Never
+                    <input type="radio" name="period" id = "Lessthanayear" value="Less than a year">
+                    Less than a year
+                    <input type="radio" name="period" id = "Onetotwoyears" value="One to two years">
+                    One to two years
+                    <input type="radio" name="period" id = "Morethantwoyears"value="More than two years">More than two years
+
+                </fieldset>
+			</div>
+
+			<div id = "StudyInformation">
+				<fieldset>
+				<legend>Study Information</legend>
+				Which study are you taking part of?
+				 <select name="studyType">
+                        
+                        <option value="Short Term" >
+                        Short Term
+                    	</option>
+                        
+                        <option value="Long Term" selected="selected">
+                        Long Term
+                    	</option>
+                    </select>   
+
+                     Assigned Study Id:
+                    <input  type="text" id = "idfirstfour"name="firstFourDigits" size="4" placeholder = "A234" required>
+                    -
+                    <input  type="text" id = "idlastfour"name="secondFourDigits" size="4" placeholder="B756" required>
+                  </fieldset>
+
+			</div>
+
+			<fieldset>
+				<legend>Additional Information(Comments)</legend>
+				<textarea rows="4" cols="80" name = "comments" required>
+					Addtional family members can participate
+				</textarea>
+			</fieldset>
+
+
+
+			<fieldset>
+				<div id = "end"> 
+				<input type="reset" name="Clear Form">
+				<input type="submit" name=" Submit Information">
+			</div>
+			</fieldset>
+
+		</div>
+
+	</fieldset>	
+	
+	</form>
+</body>
+</html>

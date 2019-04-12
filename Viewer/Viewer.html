@@ -1,0 +1,294 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="Utility.js"></script>
+	<script src="DoubleLinkedList.js"></script>
+    <title>Phoneview Application</title>
+
+</head>
+
+<body>
+	<h2>Viewer</h2>
+
+<img src="InitialImage.jpg" id="displayImage" width = "555" height = "300" alt="animationImg">
+
+<br>
+        Photo's Folder: 
+        <input type="text" id="folderName" value="umcp/" name="PhotosFolder">
+        <br>
+         Common Name:
+        <input type="text" id="commonName" value="college" name="commonName">
+        <br>
+         Start Photo Number:
+        <input type="number" id="startNumber" value="1" name="startnumber">
+         End Photo Number: 
+        <input type="number" id="endNumber" value="1" name="endnumber">
+        <br>
+        <br>
+        <input type="button" id="slideShow" value="Slide Show" />
+        <input type="button" id="randomShow" value="Rondom Slide Show"/>
+        <input type="button" id="previousSlide" value="Previous Slide"/>
+        <input type="button" id="nextSlide" value="Next Slide"/>
+        <br>
+        <br>
+        <br>
+        <input type="button" id="auto" value="Auto Slide Show"/>
+        <input type="button" id="autoRandom" value="Auto Random Slide Show"/>
+        <input type="button" id="stop" value="Stop Auto Show"/>
+        <br>
+        <input type="button" onclick="myFunction()" value="Reset">
+
+<script>
+
+	
+
+    let slideShow = document.getElementById("slideShow");
+    let randomShow = document.getElementById("randomShow");
+    let previous = document.getElementById("previousSlide");
+    let next = document.getElementById("nextSlide");
+    let clickImage = document.getElementById("displayImage");
+    let autoShow = document.getElementById("auto");
+    let autoRandomShow = document.getElementById("autoRandom");
+    let stop = document.getElementById("stop");
+    let reset = document.getElementById("reset");
+   
+
+    slideShow.onclick = showSlide;
+    randomShow.onclick = showRandomSlide;
+    previous.onclick = previousSlide;
+    next.onclick = nextSlide;
+    clickImage.onclick = nextSlide;
+    autoShow.onclick = showAuto;
+    autoRandomShow.onclick = showAutoRandom;
+    stop.onclick = stopPlaying;
+
+
+
+	
+
+
+
+function Viewer(viewerName, viewerDescription) {
+    Utility.call(this, viewerName, viewDescription);
+}
+
+
+Viewer.prototype = new Utility();
+Viewer.prototype.constructor = Viewer;
+
+Viewer.prototype.getArrayPhotosNames = function(){
+    let list = new DoubleLinkedList(comparator);
+
+    let folderName = document.getElementById("folderName").value;
+
+    let commonName = document.getElementById("commonName").value;
+    
+    let startNum = document.getElementById("startNumber").value;
+    
+    let endNum = document.getElementById("endNumber").value;
+
+    if (checkNumValidation(startNum, endNum) == false){
+        alert("Invalid Range");
+        return false;
+    }
+
+        let num = 0;
+        for(num = startNum; num <= endNum; num++){
+            let name = folderName + commonName + num + '.jpg';
+            list.addToEnd(name);
+        }    
+        return list;
+}
+
+
+
+Viewer.prototype.randomize = function() {
+
+    let startNum = document.getElementById("startNumber").value;
+    let endNum = document.getElementById("endNumber").value;
+    let folderName = document.getElementById("folderName").value;
+    let commonName = document.getElementById("commonName").value;
+
+    let length = endNum - startNum + 1;
+    let num = 0;
+    let array = [];
+    let orderNum = parseInt(startNum);
+
+    for(num = 0; num < length; num++){
+        array[num] = orderNum;
+        orderNum++;
+    }
+
+    let newArray = shuffleArray(array);
+
+    let newList = new DoubleLinkedList(comparator);
+    
+    let number = 0;
+    for(numner = 0; number < length; number++){
+        newList.addToEnd(folderName + commonName + newArray[number] + '.jpg');
+    }
+    return newList;
+}
+
+function showSlide(){
+
+    let startNum = document.getElementById("startNumber").value;
+    let endNum = document.getElementById("endNumber").value;
+    let list = Viewer.prototype.getArrayPhotosNames();
+    
+    window.current_list = list;
+    window.startNum = startNum;
+    window.endNum = endNum; 
+  
+    setFirstImg(list);
+}
+
+function showRandomSlide(){
+
+    let startNum = document.getElementById("startNumber").value;
+    let endNum = document.getElementById("endNumber").value;
+    let list = Viewer.prototype.randomize();
+
+    window.current_list = list;
+    window.startNum = startNum;
+    window.endNum = endNum; 
+
+    setFirstImg(list);
+
+
+}
+function previousSlide(){
+   
+    let list = window.current_list;
+    let index = window.currentIndex;
+    let currentNode = window.currentElement;
+
+
+    if(index == 1){
+
+        let preImg = list.tail;
+        let preImgValue = preImg.getValue();
+        let showImage = document.getElementById("displayImage");
+        showImage.setAttribute("src",preImgValue);
+        window.currentIndex = list.size;
+
+    }else{
+        let preImg = findNode(list,index-1); 
+        let preImgValue = preImg.getValue();
+        let showImage = document.getElementById("displayImage");
+        showImage.setAttribute("src",preImgValue);
+        window.currentIndex = index-1;
+        window.currentElement = preImg;
+    }
+}
+
+function nextSlide(){
+     let list = window.current_list;
+    let index = window.currentIndex;
+
+    if(index == (list.size)){
+
+        let nextImg = list.head;
+        let nextImgValue = nextImg.getValue();
+        let showImage = document.getElementById("displayImage");
+        showImage.setAttribute("src",nextImgValue);
+        window.currentIndex = 1;
+
+    }else{
+        let nextImg = findNode(list,index+1);
+        let nextImgValue = nextImg.getValue();
+        let showImage = document.getElementById("displayImage");
+        showImage.setAttribute("src",nextImgValue);
+        window.currentIndex = index+1;
+    }
+
+}
+
+function showAuto(){
+    showSlide();
+    return  window.myInterval = setInterval(nextSlide, 1000);
+}
+
+function showAutoRandom(){
+     showRandomSlide();
+     let intervalInMilliseconds = 1000;
+   return window.myInterval = setInterval("nextSlide()", intervalInMilliseconds);
+}
+
+function stopPlaying(){
+
+  return clearInterval(window.myInterval);
+  //window.myInterval == null;
+} 
+
+function myFunction() {
+  
+        clearInterval(window.myInterval);
+   
+
+    document.getElementById("folderName").value = "umcp/";
+     document.getElementById("commonName").value = "college";
+      document.getElementById("startNumber").value = "1";
+       document.getElementById("endNumber").value = "1";
+}
+
+function findNode(list,index){
+    let num = 0;
+    let current = list.head;
+    for(num = 1; num < index; num++){
+        current = current.next;
+    }
+    return current;
+}
+
+
+function setFirstImg(list){
+
+    let showImage = document.getElementById("displayImage");
+    let firstImg = list.head;
+    let firstImgValue = firstImg.getValue();
+   // document.write(firstImgValue);
+    showImage.setAttribute("src",firstImgValue);
+     window.currentIndex = 1;
+}
+
+function checkNumValidation(start,end){
+    if(start > end || isNaN(start) || isNaN(end)){
+        return false;
+    }else{
+        return true;
+    }
+}
+
+function shuffleArray(array) {
+    if(array.length == 1){
+        return array;
+    }else{
+
+    return array.sort(function(a, b){return 0.5 - Math.random()});
+    }
+
+}
+
+function comparator(a,b){
+    return a.value > b.value;
+
+}
+
+
+
+
+
+
+</script>
+
+</body>
+
+
+
+</html>

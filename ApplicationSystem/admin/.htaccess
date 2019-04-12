@@ -1,0 +1,7 @@
+AuthUserFile C:\xampp\htdocs\project4\ApplicationSystem\admin\.htpasswd
+AuthGroupFile /dev/null
+AuthName "Name"
+AuthTypebasic
+<Limit GET POST>
+require user main
+</Limit>
