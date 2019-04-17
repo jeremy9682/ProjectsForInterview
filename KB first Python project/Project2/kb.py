@@ -1,9 +1,4 @@
-"""
-Name: Zihan Liu
-UID: 114885289
-DID: liuzh802
 
-"""
 import os
 import re
 from parser_proj2 import Parser
