@@ -1,0 +1,36 @@
+Enter knowledge or query: a x is a y
+ok
+Enter knowledge or query: a y is not a z
+ok
+Enter knowledge or query: a z is a p
+ok
+Enter knowledge or query: a y is a p
+ok
+Enter knowledge or query: is a x a z
+no
+Enter knowledge or query: is a p a y
+sometimes
+Enter knowledge or query: is a p a z
+sometimes
+Enter knowledge or query: is a p a x
+sometimes
+Enter knowledge or query: is a z a x
+no
+Enter knowledge or query: a q is a p
+ok
+Enter knowledge or query: a x is a q
+ok
+Enter knowledge or query: is a q a z
+I don't know
+Enter knowledge or query: is a z a q
+I don't know
+Enter knowledge or query: a z is a q
+ok
+Enter knowledge or query: is a q a z
+sometimes
+Enter knowledge or query: is a z a q
+yes
+Enter knowledge or query: is a x a z
+no
+Enter knowledge or query: is a z a x
+no

@@ -1,0 +1,8 @@
+a x is a y
+a y is a z
+a z is a w
+a w is a q
+a q is not a v
+a v is a s
+a u is a v
+a x is not a u

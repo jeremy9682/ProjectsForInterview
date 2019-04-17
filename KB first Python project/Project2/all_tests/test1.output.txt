@@ -1,0 +1,4 @@
+Enter knowledge or query: a x is a y
+ok
+Enter knowledge or query: is a x a y
+yes

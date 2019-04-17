@@ -1,0 +1,6 @@
+Enter knowledge or query: a x is not a w
+ok
+Enter knowledge or query: a w is not a y
+ok
+Enter knowledge or query: is a x a y
+I don't know

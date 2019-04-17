@@ -1,0 +1,2 @@
+Enter knowledge or query: is a x a x
+yes

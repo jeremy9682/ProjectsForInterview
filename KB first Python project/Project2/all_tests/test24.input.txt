@@ -1,0 +1,4 @@
+a w is a x
+a x is a y
+a y is a z
+a w is not a z

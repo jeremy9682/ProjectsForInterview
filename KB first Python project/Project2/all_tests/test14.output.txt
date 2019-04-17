@@ -1,0 +1,6 @@
+Enter knowledge or query: a x is a y
+ok
+Enter knowledge or query: a y is a z
+ok
+Enter knowledge or query: a z is a x
+contradiction

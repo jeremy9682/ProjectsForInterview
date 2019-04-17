@@ -1,0 +1,18 @@
+a x is a y
+a y is not a z
+a z is a p
+a y is a p
+is a x a z
+is a p a y
+is a p a z
+is a p a x
+is a z a x
+a q is a p
+a x is a q
+is a q a z
+is a z a q
+a z is a q
+is a q a z
+is a z a q
+is a x a z
+is a z a x

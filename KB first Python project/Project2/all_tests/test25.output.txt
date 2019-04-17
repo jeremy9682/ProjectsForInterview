@@ -1,0 +1,10 @@
+Enter knowledge or query: a x is a y
+ok
+Enter knowledge or query: a x is a z
+ok
+Enter knowledge or query: is a y a z
+sometimes
+Enter knowledge or query: a y is a z
+ok
+Enter knowledge or query: is a y a z
+yes

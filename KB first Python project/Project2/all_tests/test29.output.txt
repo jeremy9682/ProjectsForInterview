@@ -1,0 +1,16 @@
+Enter knowledge or query: a x is a y
+ok
+Enter knowledge or query: a y is a z
+ok
+Enter knowledge or query: a z is a w
+ok
+Enter knowledge or query: a w is a q
+ok
+Enter knowledge or query: a q is not a v
+ok
+Enter knowledge or query: a v is a s
+ok
+Enter knowledge or query: a u is a v
+ok
+Enter knowledge or query: a x is not a u
+I know

@@ -1,0 +1,3 @@
+a x is a y
+x is a z
+is a x a z

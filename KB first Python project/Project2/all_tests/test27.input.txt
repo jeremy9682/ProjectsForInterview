@@ -1,0 +1,3 @@
+a x is not a y
+a y is not a z
+is a z a x
